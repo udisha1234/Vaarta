@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:vaarta/screens/Landing_Pages/Landing_screens/Onboarding.dart';
+import 'package:vaarta/utils/colors.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -27,6 +28,7 @@ class _SplashScreenState extends State<SplashScreen> {
     var w = MediaQuery.of(context).size.width;
     return SafeArea(
       child: Scaffold(
+        backgroundColor: color.prim,
         body: Column(
           children: [
             Container(
@@ -44,7 +46,7 @@ class _SplashScreenState extends State<SplashScreen> {
             ),
             Text(
               "Let's Get Started",
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700),
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.w700,color: color.base),
             )
           ],
         ),

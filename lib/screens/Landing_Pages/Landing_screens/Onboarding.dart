@@ -3,6 +3,7 @@ import 'package:vaarta/screens/Auth/Auth_screens/login_screen.dart';
 import 'package:vaarta/screens/Landing_Pages/Landing_local_widget/info.dart';
 import 'package:vaarta/screens/Landing_Pages/Landing_local_widget/nextButton.dart';
 import 'package:vaarta/screens/Landing_Pages/Landing_local_widget/text.dart';
+import 'package:vaarta/utils/colors.dart';
 import 'package:vaarta/widgets/globalvspace.dart';
 
 class OnboardingScreen extends StatefulWidget {
@@ -22,6 +23,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
     return SafeArea(
       child: Scaffold(
+        backgroundColor: color.prim,
         body: PageView(
           controller: _pageController,
           children: [

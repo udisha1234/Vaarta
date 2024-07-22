@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:vaarta/screens/Home/Home_screens/Details_screen.dart';
+import 'package:vaarta/screens/Home/Home_screens/Home_screen.dart';
+import 'package:vaarta/screens/Home/Home_screens/List_screen.dart';
+import 'package:vaarta/screens/Home/Home_screens/Profile_screen.dart';
 import 'package:vaarta/screens/Landing_Pages/Landing_screens/splash_screen.dart';
 
 void main() {
@@ -16,3 +20,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+// pPpP

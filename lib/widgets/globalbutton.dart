@@ -6,7 +6,7 @@ Widget globalbutton(double h , double w , String txt){
       height: h * 0.065,
       width: w,
       decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(15), color: color.prim),
+          borderRadius: BorderRadius.circular(15), color: color.blue),
       child: Center(
           child: Text(
         txt,

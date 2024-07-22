@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:vaarta/utils/colors.dart';
 
 class Number_Block extends StatefulWidget {
   final double height;
@@ -16,7 +17,7 @@ class _Number_BlockState extends State<Number_Block> {
       height: widget.height * 0.07,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(15),
-        border: Border.all(width: 0.8),
+        border: Border.all(width: 0.8 , color: color.text),
       ),
     );
   }
