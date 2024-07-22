@@ -66,6 +66,7 @@ flutter:
     - assets/images/img_4_onboarding.png
     - assets/images/img_5_enter_no.png
     - assets/images/img_6_otp.png
+    - assets/logo/logo_1_tesla.png
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

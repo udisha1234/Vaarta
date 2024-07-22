@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:vaarta/utils/colors.dart';
 
 class info extends StatelessWidget {
   final String txt ;
@@ -9,6 +10,7 @@ class info extends StatelessWidget {
     return Text(txt, style: TextStyle(
             fontSize: 16,
             fontWeight: FontWeight.w300,
+            color: color.text
           ),);
   }
 }

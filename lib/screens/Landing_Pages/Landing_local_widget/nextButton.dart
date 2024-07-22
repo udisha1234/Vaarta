@@ -11,7 +11,7 @@ class button extends StatelessWidget {
     return Container(
       height: w * 0.15,
       width: w * 0.15,
-      decoration: BoxDecoration(shape: BoxShape.circle, color: color.prim),
+      decoration: BoxDecoration(shape: BoxShape.circle, color: color.blue),
       child: Icon(
         Icons.arrow_forward_ios_rounded,
         color: color.base,
